@@ -1,4 +1,4 @@
-
+# Team Leads
 - employee: Frank Klesitz
   team: Team Leaders
   image: http://i842.photobucket.com/albums/zz344/VyralMarketing/Vyral%20Marketing/franksquare_zpsrn4ynzem.png
@@ -15,11 +15,94 @@
   phone: (402) 203-4585
   linkedin: https://www.linkedin.com/in/johnrmcmillan
 
+- employee: Allison McMickell
+  team: Team Leaders
+  title: General Manager
+  email: allison@getvyral.com
+  phone: 402-253-0536
+  linkedin: https://www.linkedin.com/in/allisonmcmickell
+  image:
+
+# Designers
 
 - employee: Bryce Stradling
-  team: Graphic Designer
+  team: Designers
   image: http://i842.photobucket.com/albums/zz344/VyralMarketing/Vyral%20Marketing/JohnMcMillian_zps70bfe369.png
   title: Lead Web Designer
   email: bryce@getvyral.com
   phone: (402) 415-4753
   linkedin: https://www.linkedin.com/pub/bryce-stradling/75/8b6/980
+  image:
+
+# Writers
+
+- employee: Grant Muessel
+  team: Writers
+  title: Content Writer
+  email: grant@getvyral.com
+  phone: (402) 415-3037
+  linkedin: https://www.linkedin.com/in/muessel
+  image:
+
+# Business Devs
+
+- employee: Ryan Konsel
+  team: Sales
+  title: Associate for Business Development
+  email: Ryan@getvyral.com
+  phone: 402-403-4551
+  linkedin: https://www.linkedin.com/in/ryan-konsel-116970bb
+
+
+# -=-=-=-=-=-= Coaches
+
+# Maddie
+- employee: Maddie Huerter
+  team: Maddie
+  title: Client Manager
+  email: Maddie@getvyral.com
+  phone: (402) 369-5267
+  linkedin: https://www.linkedin.com/in/madelinehuerter
+  image:
+
+- employee: Ashlee Boyce
+  team: Maddie
+  title: Video Editor/Graphic Designer
+  email: ashlee@getvyral.com
+  phone: 402-203-9639
+  linkedin:
+  image:
+
+# Reid
+- employee: Reid Kilmer
+  title: Client Manager
+  email: reid@getvyral.com
+  phone: 402-609-7064
+  linkedin: https://www.linkedin.com/in/reid-kilmer-086512a1?trk=nav_responsive_tab_profile
+  image:
+
+- employee: Othow Anade
+  team: Reid
+  title: Video Editor/Graphic Designer
+  email: Othow.Anade@gmail.com
+  phone: (402) 637-4886
+  linkedin: https://www.linkedin.com/in/othow-anade-44b227108
+  image:
+
+# Matt Beller
+- employee: Matt Beller
+  team: Beller
+  title: Client Manager
+  email: mbeller@getvyral.com
+  phone: (402) 281-2691
+  linkedin: https://www.linkedin.com/in/matthew-beller-29495459
+  image:
+
+# Paul
+- employee: Sean Davis
+  team: Paul
+  title: Project Manager
+  email: sean@getvyral.com
+  phone: (402) 690-4771
+  linkedin: https://www.linkedin.com/in/sean-davis-71998068
+  image: 
