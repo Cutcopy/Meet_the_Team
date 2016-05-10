@@ -1,0 +1,19 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Meet The Team</title>
+  </head>
+  <body>
+    {% for staff in site.data.staff %}
+      <img src="{{staff.image}}" alt="{{staff.employee}} headshot" />
+      <p>{{staff.employee}}</p>
+      <p>{{staff.title}}</p>
+      <p><a href="{{staff.phone}}">{{staff.phone}}</a></p>
+      <p><a href="{{staff.email}}">{{staff.email}}</a></p>
+    {% endfor %}
+  </body>
+</html>
