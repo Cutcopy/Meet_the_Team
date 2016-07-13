@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="container">
+  {% for result in site.data.results  %}
+    <div class="result">
+      <a href="{{site.data.results.result.link}}">
+        <img class="screenShot" src="{{site.data.results.result.screenShot}}" alt="{{site.data.results.result.client}}'s Blog">
+      </a>
+      <article>
+        <strong>{{site.data.results.result.title}}</strong>
+
+        <p>{{site.data.results.result.article}}</p>
+        <div style="background-image: url({{site.data.results.result.headShot}});" class="headShot"></div>
+        <strong>- {{site.data.results.result.client}}</strong>, <em>Realtor</em>
+
+        <p><a href="{{site.data.results.result.link}}">See examples and full interview here</a></p>
+      </article>
+    </div>
+    <br>
+    <hr>
+  {% endfor %}
+</div>

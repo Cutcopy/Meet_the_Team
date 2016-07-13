@@ -8,6 +8,7 @@ layout: null
     <title>Meet The Team</title>
   </head>
   <body>
+    {% comment %}
     {% for staff in site.data.staff %}
       <img src="{{staff.image}}" alt="{{staff.employee}} headshot" />
       <p>{{staff.employee}}</p>
@@ -15,5 +16,15 @@ layout: null
       <p><a href="{{staff.phone}}">{{staff.phone}}</a></p>
       <p><a href="{{staff.email}}">{{staff.email}}</a></p>
     {% endfor %}
+    {% endcomment %}
+    {% if site.data.staff.team !=  "Team Leaders" %}
+      {% for staff in site.data.staff %}
+        <img src="{{staff.image}}" alt="{{staff.employee}} headshot" />
+        <p>{{staff.employee}}</p>
+        <p>{{staff.title}}</p>
+        <p><a href="{{staff.phone}}">{{staff.phone}}</a></p>
+        <p><a href="{{staff.email}}">{{staff.email}}</a></p>
+      {% endfor %}
+    {% endif %}
   </body>
 </html>
